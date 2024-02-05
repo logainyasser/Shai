@@ -76,7 +76,7 @@ The dataset is very large, so I used df.head() to display the first five rows,to
 To calculate the baics statistics : all the function that i used are there in Pandas , and  the range is the max value-min value.
 For handeling missing value: i used more than one method , mean value method  in column that i  want represents all values ​​and does not represent a random unit value, so that the accuracy is fairly good, the second method : default value such as '0'  'nothing' for column that are not important or not effictive in dataset .
 I called matplotlib.pyplot to visualization many relationship between different columns(i used a newdf because it doesnt include missing value ) , 'Distribution of salaries': This chart will give an overview of how salaries are spread across the dataset,'proportion of employees in different department':
-This provides a visual representation of the distribution of employees across various departments.
+This provides a visual representation of the distribution of employees across various departments, the salary distribution is almost normal, with a peak around the mean salary.
 Ichoose grouping by the 'Year' column and calculating summary statistics for the 'TotalPay' column by using groupby and describe() ,average salaries differ across years of experiance .
 The numerical coulumn is Years , and after calculate the correlation between salaries and numerical column i conclude it is weak correlation ;This means that i cannot remove any of them .
 The scatter plot indicates the relationship between salaries and years of experience,and make it easy to show whether there is a correlation between the two columns.
